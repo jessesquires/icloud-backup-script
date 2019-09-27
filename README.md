@@ -13,12 +13,12 @@ It will backup the entire contents of the iCloud Drive directory (`~/Library/Mob
 2. Update the `DEST` variable to point to where you want the backup stored
 3. Run the script, `./icloud_backup.sh`. Add `--dry-run` option to the script to preview before running.
 
-##### Example
+#### Example
 
 ```bash
 $ ./icloud_backup.sh
 
-Source: /Users/jesse/Library/Mobile Documents/com~apple~CloudDocs/
+Source: /Users/jesse/Library/Mobile Documents/
 Destination: /Users/jesse/Desktop/dest/
 Starting rsync backup...
 
