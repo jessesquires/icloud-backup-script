@@ -1,19 +1,19 @@
 # icloud-backup-script
 *Backup your iCloud Drive documents using rsync*
 
-### About
+## About
 
 This is a simple script that I use to [backup my iCloud Drive documents](https://www.jessesquires.com/blog/icloud-backup-using-rsync/), in case I ever get [clusterfucked](https://furbo.org/2019/09/04/icloud-clusterfuck/).
 
 It will backup the entire contents of the iCloud Drive directory (`~/Library/Mobile Documents/`). Note: it will only backup what has been downloaded to your Mac.
 
-### Usage
+## Usage
 
 1. Clone this repo
 2. Update the `DEST` variable to point to where you want the backup stored
 3. Run the script, `./icloud_backup.sh`. Add `--dry-run` option to the script to preview before running.
 
-#### Example
+## Example
 
 ```bash
 $ ./icloud_backup.sh
