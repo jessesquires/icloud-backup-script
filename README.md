@@ -1,4 +1,5 @@
 # icloud-backup-script
+
 *Backup your iCloud Drive documents using rsync*
 
 ## About
@@ -11,12 +12,12 @@ It will backup the entire contents of the iCloud Drive directory (`~/Library/Mob
 
 1. Clone this repo
 2. Update the `DEST` variable to point to where you want the backup stored
-3. Run the script, `./icloud_backup.sh`. Add `--dry-run` option to the script to preview before running.
+3. Run the script, `./icloud_backup.zsh`. Add `--dry-run` option to the script to preview before running.
 
 ## Example
 
 ```bash
-$ ./icloud_backup.sh
+$ ./icloud_backup.zsh
 
 Source: /Users/jesse/Library/Mobile Documents/
 Destination: /Users/jesse/Desktop/dest/
