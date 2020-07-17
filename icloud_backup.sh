@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 DEST="/Volumes/Data1/Documents/icloud-backup/"
 
