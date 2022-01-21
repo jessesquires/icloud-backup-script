@@ -4,7 +4,7 @@
 
 ## About
 
-This is a simple script that I use to [backup my iCloud Drive documents](https://www.jessesquires.com/blog/icloud-backup-using-rsync/), in case I ever get [clusterfucked](https://furbo.org/2019/09/04/icloud-clusterfuck/).
+This is a simple script that I use to [backup my iCloud Drive documents](https://www.jessesquires.com/blog/2019/09/27/icloud-backup-using-rsync/), in case I ever get [clusterfucked](https://furbo.org/2019/09/04/icloud-clusterfuck/).
 
 It will backup the entire contents of the iCloud Drive directory (`~/Library/Mobile Documents/`). Note: it will only backup what has been downloaded to your Mac.
 
